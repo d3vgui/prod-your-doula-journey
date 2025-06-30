@@ -1,0 +1,112 @@
+#section-one{
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+
+#section-one .content-sec-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-one .left-content{
+    padding: 25px;
+    background-color: var(--second-color);
+    height: 100%;
+    border-radius: 70px 20px;
+    color: var(--first-color);
+    border: 2px solid var(--first-color);
+}
+
+#section-one .left-content .title{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-one .left-content .info{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-one .left-content .social{
+    height: 100px;
+}
+
+#section-one .left-content .logo img{
+    height: 100px;
+}
+
+#section-one .left-content ul{
+    padding: 0;
+}
+
+#section-one .left-content li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+#section-one .left-content a{
+    color: var(--first-color);
+    font-weight: 550;
+    text-decoration: none;
+}
+
+#section-one .left-content i{
+    margin-right: 10px;
+}
+
+#section-one .left-content p{
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+
+#section-one .right-content form{
+    display: flex;
+    flex-direction: column;
+}
+
+#section-one .right-content label{
+    margin-top: 10px;
+}
+
+#section-one .right-content span{
+    color: red;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+#section-one .right-content input{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+}
+
+#section-one .right-content textarea{
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+}
+
+#section-one .right-content button{
+    margin-top: 15px;
+    background-color: var(--first-color);
+    color: var(--white);
+    font-weight: 550;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.4s ease;
+}
+
+#section-one .right-content button:hover{
+    transform: scale(0.9);
+}

@@ -1,0 +1,45 @@
+@media (max-width: 991px) {
+  /* SECTION TWO */
+
+  #section-two {
+    padding: 60px;
+  }
+
+  #section-two .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three {
+    padding: 60px 0;
+  }
+
+  #section-three .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four {
+    padding: 60px 0;
+  }
+
+  #section-four .content-sec-four {
+    flex-direction: column-reverse;
+  }
+
+  #section-four .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five {
+    padding: 60px 0;
+  }
+
+  #section-five img {
+    width: 100%;
+  }
+}

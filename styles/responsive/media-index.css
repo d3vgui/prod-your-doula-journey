@@ -1,0 +1,61 @@
+@media (max-width: 991px){
+
+    /* SECTION TWO */
+
+    #section-two{
+        padding: 60px 0;
+    }
+
+    #section-two .right-content{
+        margin-top: 45px;
+    }
+
+    /* SECTION THREE */
+
+    #section-three{
+        padding: 60px 0;
+    }
+
+    #section-three .content-sec-three{
+        flex-direction: column-reverse;
+    }
+
+    #section-three .left-content{
+        margin-top: 45px;
+    }
+
+    /* SECTION FOUR */
+
+    #section-four{
+        padding: 60px 0;
+    }
+
+    #section-four .right-content{
+        margin-top: 45px;
+    }
+
+    /* SECTION FIVE */
+
+    #section-five{
+        padding: 60px 0;
+    }
+
+    /* SECTION SIX */
+
+    #section-six{
+        padding: 60px 0;
+    }
+
+    /* SECTION SEVEN */
+
+    #section-seven{
+        padding: 60px 0;
+    }
+
+    /* SECTION EIGHT */
+
+    #section-eight{
+        padding: 60px 0;
+    }
+
+}
