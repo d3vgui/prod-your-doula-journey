@@ -10,9 +10,25 @@
     margin-top: 45px;
 }
 
-#section-one .box{
+#section-one span{
+    padding: 10px 20px;
+    border-radius: 10px 20px;
+    color: var(--white);
+    background-color: var(--first-color);
+}
+
+#section-one h2{
+    margin-top: 20px;
+}
+
+#section-one img{
     height: 300px;
     width: 300px;
-    background-color: gray;
+    object-fit: cover;
     border-radius: 50px 20px;
+    transition: 0.4s ease;
+}
+
+#section-one img:hover{
+    transform: scale(1.03);
 }

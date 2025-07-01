@@ -65,8 +65,8 @@
 
 #section-one .swiper-slide img {
   display: block;
+  height: 100vh;
   width: 100%;
-  height: 100%;
   object-fit: cover;
   filter: brightness(40%);
 }
@@ -342,37 +342,36 @@
       rgba(0, 0, 0, 0) 70%
     ),
     url(/images/img-1.webp);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   border: 3px solid var(--second-color);
-  padding: 25px;
+  padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   flex-wrap: wrap;
 }
 
-#section-five .right-content span {
+#section-five .left-content span {
   color: var(--white);
   background-color: var(--first-color);
   padding: 10px 20px;
   border-radius: 10px 20px;
 }
 
-#section-five .right-content h2 {
+#section-five .left-content h2 {
   margin-top: 20px;
 }
 
-#section-five .right-content ul {
+#section-five .left-content ul {
   padding: 0;
 }
 
-#section-five .right-content li {
+#section-five .left-content li {
   margin-top: 15px;
   list-style-type: none;
 }
 
-#section-five .right-content li i {
+#section-five .left-content li i {
   margin-right: 10px;
   color: var(--first-color);
 }
@@ -465,6 +464,30 @@
 
 #section-six .card .logo img{
   height: 70px;
+}
+
+#section-six .btn-know-more{
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+#section-six .btn-know-more a{
+  padding: 15px 25px;
+  background-color: var(--first-color);
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.4s ease;
+  border-radius: 15px;
+  font-weight: 550;
+}
+
+#section-six .btn-know-more a:hover{
+  margin-left: 15px;
+}
+
+#section-six .btn-know-more i{
+  margin-left: 8px;
 }
 
 /* SECTION SEVEN */
@@ -570,6 +593,7 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 

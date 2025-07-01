@@ -19,6 +19,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   color: var(--white);
+  text-align: center;
 }
 
 #section-one .content-sec-one h2 {

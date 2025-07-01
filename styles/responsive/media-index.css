@@ -1,61 +1,96 @@
-@media (max-width: 991px){
+@media (max-width: 991px) {
+  /* SECTION ONE */
 
-    /* SECTION TWO */
+  #section-one .overlay-text {
+    top: 56%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+  }
 
-    #section-two{
-        padding: 60px 0;
-    }
+  #section-one .overlay-text h2 {
+    font-size: 36px;
+  }
 
-    #section-two .right-content{
-        margin-top: 45px;
-    }
+  /* SECTION TWO */
 
-    /* SECTION THREE */
+  #section-two {
+    padding: 60px 0;
+  }
 
-    #section-three{
-        padding: 60px 0;
-    }
+  #section-two .right-content {
+    margin-top: 45px;
+  }
 
-    #section-three .content-sec-three{
-        flex-direction: column-reverse;
-    }
+  /* SECTION THREE */
 
-    #section-three .left-content{
-        margin-top: 45px;
-    }
+  #section-three {
+    padding: 60px 0;
+  }
 
-    /* SECTION FOUR */
+  #section-three .content-sec-three {
+    flex-direction: column-reverse;
+  }
 
-    #section-four{
-        padding: 60px 0;
-    }
+  #section-three .left-content {
+    margin-top: 45px;
+  }
 
-    #section-four .right-content{
-        margin-top: 45px;
-    }
+  /* SECTION FOUR */
 
-    /* SECTION FIVE */
+  #section-four {
+    padding: 60px 0;
+  }
 
-    #section-five{
-        padding: 60px 0;
-    }
+  #section-four .right-content {
+    margin-top: 45px;
+  }
 
-    /* SECTION SIX */
+  /* SECTION FIVE */
 
-    #section-six{
-        padding: 60px 0;
-    }
+  #section-five {
+    padding: 60px 0;
+  }
 
-    /* SECTION SEVEN */
+  /* SECTION SIX */
 
-    #section-seven{
-        padding: 60px 0;
-    }
+  #section-six {
+    padding: 60px 0;
+  }
 
-    /* SECTION EIGHT */
+  /* SECTION SEVEN */
 
-    #section-eight{
-        padding: 60px 0;
-    }
+  #section-seven {
+    padding: 60px 0;
+  }
 
+  /* SECTION EIGHT */
+
+  #section-eight {
+    padding: 60px 0;
+  }
+
+  #section-eight img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  /* SECTION ONE */
+
+  #section-one .overlay-text h2 {
+    font-size: 28px;
+  }
+
+  #section-one .overlay-text p {
+    font-size: 14px;
+    color: var(--white);
+    margin-top: 15px;
+  }
+
+  /* SECTION EIGHT */
+
+  #section-eight img {
+    height: 300px;
+  }
 }

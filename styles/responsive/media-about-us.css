@@ -2,7 +2,7 @@
   /* SECTION TWO */
 
   #section-two {
-    padding: 60px;
+    padding: 60px 0;
   }
 
   #section-two .right-content {
@@ -31,6 +31,10 @@
 
   #section-four .left-content {
     margin-top: 45px;
+  }
+
+  #section-four .right-content {
+    padding: 30px;
   }
 
   /* SECTION FIVE */
