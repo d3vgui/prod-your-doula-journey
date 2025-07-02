@@ -20,6 +20,12 @@
 
   #section-two .right-content {
     margin-top: 45px;
+    width: 80vw;
+  }
+
+  #section-two .right-content img{
+    height: 450px;
+    object-position: top;
   }
 
   /* SECTION THREE */
@@ -72,6 +78,12 @@
 
   #section-eight img {
     width: 100%;
+  }
+}
+
+@media (max-width: 620px){
+    #section-two .right-content {
+    width: 85vw;
   }
 }
 
