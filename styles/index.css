@@ -74,7 +74,7 @@
 /* SECTION TWO */
 
 #section-two {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 #section-two .content-sec-two {
@@ -145,9 +145,8 @@
 
 .carousel {
   width: 100%;
-  height: 200px;
+  height: 100px;
   overflow: hidden;
-  padding: 100px 0;
 }
 
 .carousel-track {
@@ -195,7 +194,7 @@
 /* SECTION FIVE */
 
 #section-five {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 #section-five .content-sec-five {
@@ -266,7 +265,7 @@
 /* SECTION SIX */
 
 #section-six {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 #section-six .title {
@@ -331,34 +330,10 @@
   height: 70px;
 }
 
-#section-six .btn-know-more{
-  margin-top: 45px;
-  display: flex;
-  justify-content: center;
-}
-
-#section-six .btn-know-more a{
-  padding: 15px 25px;
-  background-color: var(--first-color);
-  color: var(--white);
-  text-decoration: none;
-  transition: 0.4s ease;
-  border-radius: 15px;
-  font-weight: 550;
-}
-
-#section-six .btn-know-more a:hover{
-  margin-left: 15px;
-}
-
-#section-six .btn-know-more i{
-  margin-left: 8px;
-}
-
 /* SECTION SEVEN */
 
 #section-seven{
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 #section-seven .title span{
@@ -450,7 +425,7 @@
 /* SECTION EIGHT */
 
 #section-eight{
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 #section-eight .content-sec-eight{
