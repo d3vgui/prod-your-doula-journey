@@ -419,6 +419,7 @@ footer .content-footer ul {
 
 footer .content-footer li {
   list-style-type: none;
+  margin-top: 5px;
 }
 
 footer .content-footer h3 {
