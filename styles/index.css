@@ -289,36 +289,30 @@
 
 #section-six .swiper-slide {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-#section-six .swiper-slide {
-  width: 60%;
-}
-
-#section-six .swiper-slide:nth-child(2n) {
-  width: 40%;
-}
-
-#section-six .swiper-slide:nth-child(3n) {
-  width: 20%;
+  flex-wrap: wrap;
 }
 
 #section-six .card {
   height: 100%;
   border: none;
   background-color: var(--second-color);
-  width: 350px;
+  width: 100%;
   padding: 20px;
-  border-radius: 50px 20px;
+  border-radius: 70px 20px;
   border: 2px solid var(--first-color);
 }
 
 #section-six .card .text {
-  height: 300px;
+  height: 100%;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section-six .card .text p{
+  margin: 5px;
 }
 
 #section-six .card .name {
@@ -328,6 +322,13 @@
 
 #section-six .card .logo img{
   height: 70px;
+}
+
+#section-six .swiper-slide .right-content img{
+  border-radius: 70px 20px;
+  width: auto;
+  height: 600px;
+  object-fit: cover;
 }
 
 /* SECTION SEVEN */

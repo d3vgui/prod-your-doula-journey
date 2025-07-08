@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="/styles/settings.css">
-  <link rel="stylesheet" href="/styles/about-us.css">
-  <link rel="stylesheet" href="/styles/responsive/media-about-us.css">
+  <link rel="stylesheet" href="/styles/course-one.css">
+  <link rel="stylesheet" href="/styles/responsive/media-course-one.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -30,7 +30,7 @@
 
 <body>
   <header>
-    <a id="logo" title="Logo" href="index.html"><img class="img-responsive" loading="lazy" title="Logo"
+    <a id="logo" title="Logo" href="#section-one"><img class="img-responsive" loading="lazy" title="Logo"
         src="./images/logo-header.webp" alt="Logo"></a>
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
@@ -40,9 +40,21 @@
         <li>
           <a class="header-line" title="Clique aqui para ser direcionado a página INÍCIO" href="index.html">INÍCIO</a>
         </li>
-        <li>
-          <a class="header-line" title="Clique aqui para ser direcionado a página QUEM SOMOS"
-            href="about-us.html">CURSOS</a>
+        <li class="has-submenu" id="link-cursos">
+          <span>CURSOS <i class="fa-solid fa-angle-down"></i></span>
+          <ul id="submenu-cursos" class="submenu" role="menu">
+            <li>
+              <a class="header-line" role="menuitem" href="course-one.html" title="Curso de Formação de Doula de Parto">
+                CURSO DE FORMAÇÃO DE DOULA DE PARTO
+              </a>
+            </li>
+            <li>
+              <a class="header-line" role="menuitem" href="course-two.html"
+                title="Curso de Formação de Doula de Pós-Parto">
+                CURSO DE FORMAÇÃO DE DOULA DE PÓS-PARTO
+              </a>
+            </li>
+          </ul>
         </li>
         <li>
           <a class="header-line" title="Clique aqui para ser direcionado a página CONTATO"
@@ -68,40 +80,7 @@
         </div>
       </div>
     </section>
-    <section id="section-two">
-      <div class="container">
-        <div class="content-sec-two">
-          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="left-content">
-              <span><strong>CURSOS</strong></span>
-              <h2>Sobre nossa Formação</h2>
-              <p>Se você busca uma nova profissão que una empatia, conhecimento e retorno financeiro, chegou ao lugar
-                certo.</p>
-              <p>Na Your Doula Journey, oferecemos formações completas para quem deseja se tornar doula — com base na
-                experiência real de quem já atendeu centenas de famílias, construiu uma agência com mais de 20
-                profissionais e transformou cuidado em carreira.</p>
-              <p>Aqui, você vai aprender tudo o que é essencial para atuar com segurança e autoridade: desde a
-                fisiologia do parto até estratégias de atendimento, marketing pessoal, modelos de contrato e como
-                conquistar suas primeiras clientes.</p>
-              <p>É muito mais do que um curso: é uma jornada de transformação profissional e pessoal com o apoio de uma
-                rede que cresce com você.</p>
-              <div class="btn-contact-us">
-                <a title="Clique aqui para entrar em contato via WhatsApp" target="_blank"
-                  href="https://wa.me/15618667280?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es.">QUERO
-                  ADQUIRIR <i class="fa-solid fa-circle-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-            <div class="right-content">
-              <img src="/images/img-10.webp" alt="Cursos" title="Cursos" loading="lazy" class="img-responsive">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="section-three">
+    <!-- <section id="section-three">
       <div class="container">
         <div class="content-sec-three">
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -130,10 +109,10 @@
           </div>
         </div>
       </div>
-    </section>
-    <div id="section-four">
+    </section> -->
+    <div id="section-two">
       <div class="container">
-        <div class="row content-sec-four">
+        <div class="row content-sec-two">
           <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
             <div class="left-content">
               <div class="swiper mySwiper4">
@@ -195,9 +174,9 @@
         </div>
       </div>
     </div>
-    <section id="section-five">
+    <section id="section-three">
       <div class="container">
-        <div class="content-sec-five">
+        <div class="content-sec-three">
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="left-content">
               <span><strong>CONTEÚDO</strong></span>
@@ -254,109 +233,10 @@
         </div>
       </div>
     </section>
-    <section id="section-six">
-      <div class="container">
-        <div class="content-sec-six">
-          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-            <div class="left-content">
-              <img src="/images/img-27.webp" alt="Cursos" title="Cursos" class="img-responsive" loading="lazy">
-            </div>
-          </div>
-          <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="right-content">
-              <span><strong>CURSOS</strong></span>
-              <h2>Curso de Formação de Doula de Pós-Parto</h2>
-              <p> A doula de pós-parto é uma profissional
-                treinada para cuidar não apenas do recém
-                nascido mas da mãe puérpera e ajudar
-                toda a família durante os primeiros meses
-                após o parto, que é cheio de dúvidas e
-                mudanças na rotina. É um momento lindo
-                mais cheios de dúvidas e incertezas.</p>
-              <p>Com esse curso você se tornará o suporte
-                perfeito que toda família com recém
-                nascido precisa.
-              </p>
-
-              <ul>
-                <li><i class="fa-solid fa-circle-check"></i><strong>Completo e prático:</strong> conteúdo técnico +
-                  aplicação no mundo real</li>
-                <li><i class="fa-solid fa-circle-check"></i><strong>Mentoria com quem vive da doulagem:</strong> acesso
-                  direto à Natália e sua equipe</li>
-                <li><i class="fa-solid fa-circle-check"></i><strong>Pronto para o mercado:</strong> você sai com
-                  confiança, ferramentas e estratégia para começar</li>
-              </ul>
-              <div class="btn-know-more">
-                <a title="Clique aqui para ser direcionado ao nossos cursos" target="_blank"
-                  href="https://hotmart.com/pt-br/club/yourdoulajourney">QUERO ADQUIRIR <i
-                    class="fa-solid fa-circle-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="section-seven">
-      <div class="container">
-        <div class="content-sec-seven">
-          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="left-content">
-              <span><strong>CONTEÚDO</strong></span>
-              <h2>Conteúdo do Curso de Doula de Pós-Parto</h2>
-              <p>O pós-parto é um dos períodos mais delicados e intensos da vida de uma mulher — e é exatamente nesse momento que a doula pós-parto faz toda a diferença.</p>
-              <p>Este curso foi criado para formar profissionais preparadas para oferecer apoio emocional, físico e prático às mães nos primeiros dias e semanas após o nascimento do bebê.</p>
-              <p>Durante a formação, você aprenderá:</p>
-              <ul>
-                <li><i class="fa-solid fa-angle-right"></i>O que é a doula, qualidades essenciais e o
-                  que a doula faz</li>
-                <li><i class="fa-solid fa-angle-right"></i>O que é pós-parto</li>
-                <li><i class="fa-solid fa-angle-right"></i>A recuperação pós-parto</li>
-                <li><i class="fa-solid fa-angle-right"></i>Possíveis complicações médicas</li>
-                <li><i class="fa-solid fa-angle-right"></i>Depressão Pós-parto e Baby Blues</li>
-                <li><i class="fa-solid fa-angle-right"></i>Apoio Físico e Emocional</li>
-                <li><i class="fa-solid fa-angle-right"></i>Cuidados básicos com o recém-nascido</li>
-                <li><i class="fa-solid fa-angle-right"></i>Sono do recém-nascido</li>
-                <li><i class="fa-solid fa-angle-right"></i>Amamentação</li>
-                <li><i class="fa-solid fa-angle-right"></i>O Business de Doula: como conquistar e
-                  gerenciar clientes e muito mais
-                </li>
-              </ul>
-              <h2>O que está incluso?</h2>
-              <ul>
-                <li><i class="fa-solid fa-angle-right"></i>Dois dias de curso (On-line ou Híbrido)</li>
-                <li><i class="fa-solid fa-angle-right"></i>Material de apoio em Inglês e Português</li>
-                <li><i class="fa-solid fa-angle-right"></i>Certificado digital e impresso em Inglês (Em
-                  português apenas para quem está no Brasil)</li>
-                <li><i class="fa-solid fa-angle-right"></i>Grupo no WhatsApp para tirar dúvidas</li>
-                <li><i class="fa-solid fa-angle-right"></i>Material de Suporte para iniciar seu negócio</li>
-                <li><i class="fa-solid fa-angle-right"></i>Oportunidade de já começar a trabalhar na
-                  nossa agência de doulas como doula trainee
-                  para adquirir experiencia e possivelmente
-                  fazer parte da nossa equipe. Nossa agência
-                  atua em apenas nos EUA e estamos em
-                  diferentes estados</li>
-              </ul>
-              <div class="btn-contact-us">
-                <a title="Clique aqui para entrar em contato via WhatsApp"
-                  href="https://wa.me/15618667280?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es.">ENTRE
-                  EM CONTATO <i class="fa-solid fa-circle-chevron-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
-          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-            <div class="right-content">
-              <img src="/images/img-28.webp" alt="Cursos" title="Cursos" class="img-responsive" loading="lazy">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="section-eight">
+    <section id="section-four">
       <div class="container">
         <div class="container">
-          <div class="content-sec-eight">
+          <div class="content-sec-four">
 
             <img loading="lazy" class="img-responsive" src="images/img-3.webp" alt="Your Doula Journey"
               title="Your Doula Journey">
@@ -386,7 +266,7 @@
       <div class="content-footer">
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
           <div class="logo-footer">
-            <a href="index.html" title="Clique aqui para voltar ao início"><img class="img-responsive" loading="lazy"
+            <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive" loading="lazy"
                 src="./images/logo-footer.webp" alt="Logo" title="Clique aqui para voltar ao início"></a>
           </div>
         </div>
@@ -399,16 +279,8 @@
                   class="fa-solid fa-chevron-right"></i>INÍCIO</a>
             </li>
             <li>
-              <a title="Clique aqui para ser direcionado a página SOBRE NÓS" href="about-us.html"><i
-                  class="fa-solid fa-chevron-right"></i>SOBRE NÓS</a>
-            </li>
-            <li>
-              <a title="Clique aqui para ser direcionado a página SERVIÇOS" href="services.html"><i
-                  class="fa-solid fa-chevron-right"></i>SERVIÇOS</a>
-            </li>
-            <li>
-              <a title="Clique aqui para ser direcionado a página GALERIA" href="gallery.html"><i
-                  class="fa-solid fa-chevron-right"></i>GALERIA</a>
+              <a title="Clique aqui para ser direcionado a página CURSOS" href="about-us.html"><i
+                  class="fa-solid fa-chevron-right"></i>CURSOS</a>
             </li>
             <li>
               <a title="Clique aqui para ser direcionado a página CONTATO" href="contact.html"><i

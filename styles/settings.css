@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'SelfieBlack';
+  font-family: "SelfieBlack";
   src: url(/fonts/Selfie_Black.otf);
 }
 
@@ -8,7 +8,7 @@
   --second-color: #f6d9da;
   --white: #ffffff;
   --black: #000000;
-  --title-font: 'SelfieBlack';
+  --title-font: "SelfieBlack";
   --text-font: Montserrat, "sans-serif";
 }
 
@@ -58,7 +58,7 @@ html {
 
 /* TOP HEADER */
 
-.top-header {
+/* .top-header {
   padding: 10px 50px;
   width: 100%;
   background-color: var(--second-color);
@@ -103,7 +103,7 @@ html {
 
 .top-header li {
   list-style: none;
-}
+} */
 
 /* HEADER */
 
@@ -260,8 +260,102 @@ ul {
     top: -7px;
   }
 
-  header img{
+  header img {
     height: 70px;
+  }
+}
+
+.has-submenu {
+  position: relative;
+  z-index: 999;
+}
+
+.has-submenu span {
+  color: var(--white);
+  font-weight: 500;
+  font-family: var(--text-font);
+}
+
+.has-submenu i {
+  margin-left: 8px;
+}
+
+#submenu-cursos {
+  background-color: var(--white);
+}
+
+#submenu-cursos li a {
+  color: var(--first-color);
+}
+
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 0.35s ease, opacity 0.35s ease;
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.submenu a + a {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@media (min-width: 1081px) {
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: -30px;
+    min-width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .has-submenu:hover > .submenu,
+  .has-submenu:focus-within > .submenu {
+    max-height: 400px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #link-cursos {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1080px) {
+  .submenu {
+    background: var(--white);
+  }
+
+  .submenu a {
+    color: var(--first-color);
+    background: var(--white);
+  }
+
+  .submenu.open {
+    max-height: 400px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #link-cursos{
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+
+  #link-cursos span {
+    color: var(--first-color) !important;
   }
 }
 

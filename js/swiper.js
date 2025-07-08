@@ -19,7 +19,7 @@ var swiper = new Swiper(".mySwiper2", {
 });
 
 var swiper = new Swiper(".mySwiper3", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
   autoplay: {
@@ -31,32 +31,6 @@ var swiper = new Swiper(".mySwiper3", {
     dynamicBullets: true,
   },
 
-  breakpoints: {
-    1280: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-
-    1024: {
-      slidesPerView: 2.5,
-      spaceBetween: 24,
-    },
-
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-
-    480: {
-      slidesPerView: 1.3,
-      spaceBetween: 16,
-    },
-
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 12,
-    },
-  },
 });
 
 var swiper = new Swiper(".mySwiper4", {

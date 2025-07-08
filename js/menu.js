@@ -50,3 +50,14 @@ menuLinks.forEach(link => {
     }
   });
 });
+
+const linkCursos  = document.getElementById('link-cursos');
+const submenuCursos = document.getElementById('submenu-cursos');
+
+linkCursos.addEventListener('click', function (e) {
+  if (window.innerWidth <= 1080) {
+    e.preventDefault();
+    const isOpen = submenuCursos.classList.toggle('open');
+    this.setAttribute('aria-expanded', isOpen);
+  }
+});
