@@ -14,13 +14,14 @@
 
 #section-one .overlay-text {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 46%;
   transform: translate(-50%, -50%);
   z-index: 10;
   text-align: left;
   font-weight: bold;
   width: 60%;
+  padding-top: 10%;
 }
 
 #section-one .overlay-text h1 {
