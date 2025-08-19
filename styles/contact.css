@@ -110,3 +110,7 @@
 #section-one .right-content button:hover{
     transform: scale(0.9);
 }
+
+#section-one .right-content button i{
+    margin-left: 5px;
+}
